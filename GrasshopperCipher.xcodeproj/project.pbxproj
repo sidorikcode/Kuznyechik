@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0BFA4F82BDE9D430021077D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BFA4F72BDE9D430021077D /* AppDelegate.swift */; };
+		F0BFA4FA2BDE9D430021077D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BFA4F92BDE9D430021077D /* SceneDelegate.swift */; };
+		F0BFA4FC2BDE9D430021077D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BFA4FB2BDE9D430021077D /* ViewController.swift */; };
+		F0BFA5012BDE9D460021077D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0BFA5002BDE9D460021077D /* Assets.xcassets */; };
+		F0BFA5042BDE9D460021077D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BFA5022BDE9D460021077D /* LaunchScreen.storyboard */; };
+		F0BFA50D2BDE9E2B0021077D /* KuznyechikCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BFA50C2BDE9E2B0021077D /* KuznyechikCipher.swift */; };
+		F0BFA5122BDFB5320021077D /* KuznyechikTransformations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BFA5112BDFB5320021077D /* KuznyechikTransformations.swift */; };
+		F0BFA5142BDFF0030021077D /* CipherProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BFA5132BDFF0030021077D /* CipherProtocol.swift */; };
+		F0BFA5162BDFF09D0021077D /* Архив.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BFA5152BDFF09D0021077D /* Архив.swift */; };
+		F0BFA5182BDFF28D0021077D /* BlockCipherECB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BFA5172BDFF28D0021077D /* BlockCipherECB.swift */; };
+		F0BFA51A2BE131BB0021077D /* BlockCipherCTR.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BFA5192BE131BB0021077D /* BlockCipherCTR.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F0BFA4F42BDE9D430021077D /* GrasshopperCipher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrasshopperCipher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BFA4F72BDE9D430021077D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0BFA4F92BDE9D430021077D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F0BFA4FB2BDE9D430021077D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0BFA5002BDE9D460021077D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0BFA5032BDE9D460021077D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0BFA5052BDE9D460021077D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0BFA50C2BDE9E2B0021077D /* KuznyechikCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuznyechikCipher.swift; sourceTree = "<group>"; };
+		F0BFA5112BDFB5320021077D /* KuznyechikTransformations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuznyechikTransformations.swift; sourceTree = "<group>"; };
+		F0BFA5132BDFF0030021077D /* CipherProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CipherProtocol.swift; sourceTree = "<group>"; };
+		F0BFA5152BDFF09D0021077D /* Архив.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Архив.swift"; sourceTree = "<group>"; };
+		F0BFA5172BDFF28D0021077D /* BlockCipherECB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockCipherECB.swift; sourceTree = "<group>"; };
+		F0BFA5192BE131BB0021077D /* BlockCipherCTR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockCipherCTR.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0BFA4F12BDE9D430021077D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0BFA4EB2BDE9D430021077D = {
+			isa = PBXGroup;
+			children = (
+				F0BFA4F62BDE9D430021077D /* GrasshopperCipher */,
+				F0BFA4F52BDE9D430021077D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0BFA4F52BDE9D430021077D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0BFA4F42BDE9D430021077D /* GrasshopperCipher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0BFA4F62BDE9D430021077D /* GrasshopperCipher */ = {
+			isa = PBXGroup;
+			children = (
+				F0BFA51B2BE16D330021077D /* SymmetricCipher */,
+				F0BFA50E2BDE9E880021077D /* CrasshopperCipher */,
+				F0BFA50B2BDE9D960021077D /* Resources */,
+				F0BFA4F72BDE9D430021077D /* AppDelegate.swift */,
+				F0BFA4F92BDE9D430021077D /* SceneDelegate.swift */,
+				F0BFA4FB2BDE9D430021077D /* ViewController.swift */,
+			);
+			path = GrasshopperCipher;
+			sourceTree = "<group>";
+		};
+		F0BFA50B2BDE9D960021077D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F0BFA5002BDE9D460021077D /* Assets.xcassets */,
+				F0BFA5022BDE9D460021077D /* LaunchScreen.storyboard */,
+				F0BFA5052BDE9D460021077D /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F0BFA50E2BDE9E880021077D /* CrasshopperCipher */ = {
+			isa = PBXGroup;
+			children = (
+				F0BFA5152BDFF09D0021077D /* Архив.swift */,
+			);
+			path = CrasshopperCipher;
+			sourceTree = "<group>";
+		};
+		F0BFA51B2BE16D330021077D /* SymmetricCipher */ = {
+			isa = PBXGroup;
+			children = (
+				F0BFA51D2BE16D5C0021077D /* BlokCipher */,
+				F0BFA51C2BE16D500021077D /* Mode */,
+			);
+			path = SymmetricCipher;
+			sourceTree = "<group>";
+		};
+		F0BFA51C2BE16D500021077D /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+				F0BFA51F2BE16E830021077D /* ECB */,
+				F0BFA5202BE173DF0021077D /* CTR */,
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		F0BFA51D2BE16D5C0021077D /* BlokCipher */ = {
+			isa = PBXGroup;
+			children = (
+				F0BFA5132BDFF0030021077D /* CipherProtocol.swift */,
+				F0BFA51E2BE16D7C0021077D /* Kuznyechik */,
+			);
+			path = BlokCipher;
+			sourceTree = "<group>";
+		};
+		F0BFA51E2BE16D7C0021077D /* Kuznyechik */ = {
+			isa = PBXGroup;
+			children = (
+				F0BFA5112BDFB5320021077D /* KuznyechikTransformations.swift */,
+				F0BFA50C2BDE9E2B0021077D /* KuznyechikCipher.swift */,
+			);
+			path = Kuznyechik;
+			sourceTree = "<group>";
+		};
+		F0BFA51F2BE16E830021077D /* ECB */ = {
+			isa = PBXGroup;
+			children = (
+				F0BFA5172BDFF28D0021077D /* BlockCipherECB.swift */,
+			);
+			path = ECB;
+			sourceTree = "<group>";
+		};
+		F0BFA5202BE173DF0021077D /* CTR */ = {
+			isa = PBXGroup;
+			children = (
+				F0BFA5192BE131BB0021077D /* BlockCipherCTR.swift */,
+			);
+			path = CTR;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0BFA4F32BDE9D430021077D /* GrasshopperCipher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0BFA5082BDE9D460021077D /* Build configuration list for PBXNativeTarget "GrasshopperCipher" */;
+			buildPhases = (
+				F0BFA4F02BDE9D430021077D /* Sources */,
+				F0BFA4F12BDE9D430021077D /* Frameworks */,
+				F0BFA4F22BDE9D430021077D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrasshopperCipher;
+			productName = GrasshopperCipher;
+			productReference = F0BFA4F42BDE9D430021077D /* GrasshopperCipher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0BFA4EC2BDE9D430021077D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F0BFA4F32BDE9D430021077D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F0BFA4EF2BDE9D430021077D /* Build configuration list for PBXProject "GrasshopperCipher" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0BFA4EB2BDE9D430021077D;
+			productRefGroup = F0BFA4F52BDE9D430021077D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0BFA4F32BDE9D430021077D /* GrasshopperCipher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0BFA4F22BDE9D430021077D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BFA5042BDE9D460021077D /* LaunchScreen.storyboard in Resources */,
+				F0BFA5012BDE9D460021077D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0BFA4F02BDE9D430021077D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BFA4FC2BDE9D430021077D /* ViewController.swift in Sources */,
+				F0BFA4F82BDE9D430021077D /* AppDelegate.swift in Sources */,
+				F0BFA4FA2BDE9D430021077D /* SceneDelegate.swift in Sources */,
+				F0BFA50D2BDE9E2B0021077D /* KuznyechikCipher.swift in Sources */,
+				F0BFA5162BDFF09D0021077D /* Архив.swift in Sources */,
+				F0BFA5182BDFF28D0021077D /* BlockCipherECB.swift in Sources */,
+				F0BFA51A2BE131BB0021077D /* BlockCipherCTR.swift in Sources */,
+				F0BFA5142BDFF0030021077D /* CipherProtocol.swift in Sources */,
+				F0BFA5122BDFB5320021077D /* KuznyechikTransformations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0BFA5022BDE9D460021077D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0BFA5032BDE9D460021077D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0BFA5062BDE9D460021077D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0BFA5072BDE9D460021077D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0BFA5092BDE9D460021077D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q58Q9878H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GrasshopperCipher/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iliaSidorik.GrasshopperCipher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0BFA50A2BDE9D460021077D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Q58Q9878H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GrasshopperCipher/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iliaSidorik.GrasshopperCipher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0BFA4EF2BDE9D430021077D /* Build configuration list for PBXProject "GrasshopperCipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0BFA5062BDE9D460021077D /* Debug */,
+				F0BFA5072BDE9D460021077D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0BFA5082BDE9D460021077D /* Build configuration list for PBXNativeTarget "GrasshopperCipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0BFA5092BDE9D460021077D /* Debug */,
+				F0BFA50A2BDE9D460021077D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0BFA4EC2BDE9D430021077D /* Project object */;
+}
